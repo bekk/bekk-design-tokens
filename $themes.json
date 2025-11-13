@@ -1,0 +1,33 @@
+[
+  {
+    "id": "2df63bc44db699fd012c9b873895282e43c47cda",
+    "$figmaCollectionId": "VariableCollectionId:36528:61712",
+    "$figmaModeId": "40960:6",
+    "name": "bekk",
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/bekk": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "name": "Dark",
+    "selectedTokenSets": {
+      "primitives/color-scheme/dark/bekk": "enabled"
+    },
+    "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:1",
+    "group": "Color scheme"
+  },
+  {
+    "name": "Light",
+    "selectedTokenSets": {
+      "primitives/color-scheme/light/bekk": "enabled"
+    },
+    "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:0",
+    "group": "Color scheme"
+  }
+]
