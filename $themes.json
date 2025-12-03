@@ -29,5 +29,15 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
     "group": "Color scheme"
+  },
+  {
+    "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
+    "name": "Luft",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "themes/luft": "enabled",
+      "semantic/color": "enabled"
+    },
+    "group": "Theme"
   }
 ]
