@@ -1,6 +1,6 @@
 {
   "color": {
-    "rebell": {
+    "accent": {
       "1": {
         "$type": "color",
         "$value": "{bekk.rebell.1}"
