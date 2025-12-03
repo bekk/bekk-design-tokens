@@ -29,5 +29,15 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
     "group": "Color scheme"
+  },
+  {
+    "id": "f905ebc4a1af61bd52847e6ac7e4d6696fc2b003",
+    "name": "jord",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/jord": "enabled"
+    },
+    "group": "Theme"
   }
 ]
