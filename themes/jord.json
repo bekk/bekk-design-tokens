@@ -132,7 +132,7 @@
         "$value": "{bekk.neutral.16}"
       }
     },
-    "jord": {
+    "dominant": {
       "1": {
         "$type": "color",
         "$value": "{bekk.jord.1}"
