@@ -2,8 +2,8 @@
   "tokenSetOrder": [
     "primitives/color-scheme/dark/bekk",
     "primitives/color-scheme/light/bekk",
-    "themes/bekk",
     "themes/jord",
+    "themes/bekk",
     "semantic/color"
   ]
 }
