@@ -32,6 +32,16 @@
     "group": "Color scheme"
   },
   {
+    "id": "f905ebc4a1af61bd52847e6ac7e4d6696fc2b003",
+    "name": "jord",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/jord": "enabled"
+    },
+  "group": "Theme"
+  },
+  {
     "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
     "name": "Luft",
     "$figmaStyleReferences": {},
