@@ -399,67 +399,67 @@
     "luft": {
       "background-default": {
         "$type": "color",
-        "$value": "{color.luft.1}"
+        "$value": "{color.dominant.1}"
       },
       "background-tinted": {
         "$type": "color",
-        "$value": "{color.luft.2}"
+        "$value": "{color.dominant.2}"
       },
       "surface-default": {
         "$type": "color",
-        "$value": "{color.luft.3}"
+        "$value": "{color.dominant.3}"
       },
       "surface-tinted": {
         "$type": "color",
-        "$value": "{color.luft.4}"
+        "$value": "{color.dominant.4}"
       },
       "surface-hover": {
         "$type": "color",
-        "$value": "{color.luft.5}"
+        "$value": "{color.dominant.5}"
       },
       "surface-active": {
         "$type": "color",
-        "$value": "{color.luft.6}"
+        "$value": "{color.dominant.6}"
       },
       "border-subtle": {
         "$type": "color",
-        "$value": "{color.luft.7}"
+        "$value": "{color.dominant.7}"
       },
       "border-default": {
         "$type": "color",
-        "$value": "{color.luft.8}"
+        "$value": "{color.dominant.8}"
       },
       "border-strong": {
         "$type": "color",
-        "$value": "{color.luft.9}"
+        "$value": "{color.dominant.9}"
       },
       "text-subtle": {
         "$type": "color",
-        "$value": "{color.luft.10}"
+        "$value": "{color.dominant.10}"
       },
       "text-default": {
         "$type": "color",
-        "$value": "{color.luft.11}"
+        "$value": "{color.dominant.11}"
       },
       "base-default": {
         "$type": "color",
-        "$value": "{color.luft.12}"
+        "$value": "{color.dominant.12}"
       },
       "base-hover": {
         "$type": "color",
-        "$value": "{color.luft.13}"
+        "$value": "{color.dominant.13}"
       },
       "base-active": {
         "$type": "color",
-        "$value": "{color.luft.14}"
+        "$value": "{color.dominant.14}"
       },
       "base-contrast-subtle": {
         "$type": "color",
-        "$value": "{color.luft.15}"
+        "$value": "{color.dominant.15}"
       },
       "base-contrast-default": {
         "$type": "color",
-        "$value": "{color.luft.16}"
+        "$value": "{color.dominant.16}"
       }
     },
     "interactive": {
