@@ -29,5 +29,25 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
     "group": "Color scheme"
+  },
+  {
+    "id": "def51875765fb2003662e74a601e11fae2a368a7",
+    "name": "unes-tema",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/unes-tema": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "2c3c94b741ae559d01224272cd3f7d265c3087c9",
+    "name": "andre-tema",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "themes/andre-tema": "enabled",
+      "semantic/color": "enabled"
+    },
+    "group": "Theme"
   }
 ]
