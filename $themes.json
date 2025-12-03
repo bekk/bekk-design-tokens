@@ -3,10 +3,10 @@
     "id": "2df63bc44db699fd012c9b873895282e43c47cda",
     "$figmaCollectionId": "VariableCollectionId:36528:61712",
     "$figmaModeId": "40960:6",
-    "name": "bekk",
+    "name": "ild",
     "selectedTokenSets": {
       "semantic/color": "enabled",
-      "themes/bekk": "enabled"
+      "themes/ild": "enabled"
     },
     "$figmaStyleReferences": {},
     "group": "Theme"
@@ -38,6 +38,26 @@
     "selectedTokenSets": {
       "semantic/color": "enabled",
       "themes/jord": "enabled"
+    },
+  "group": "Theme"
+  },
+  {
+    "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
+    "name": "Luft",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "themes/luft": "enabled",
+      "semantic/color": "enabled"
+    },
+    "group": "Theme"
+  },
+  {
+    "id": "8d901c04393a4521347f0eddf7c601a8de669e0e",
+    "name": "vann",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/vann": "enabled"
     },
     "group": "Theme"
   }
