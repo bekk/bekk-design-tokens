@@ -3,11 +3,12 @@
     "id": "2df63bc44db699fd012c9b873895282e43c47cda",
     "$figmaCollectionId": "VariableCollectionId:36528:61712",
     "$figmaModeId": "40960:6",
-    "name": "bekk",
+    "name": "ild",
     "selectedTokenSets": {
       "semantic/color": "enabled",
-      "themes/bekk": "enabled"
+      "themes/ild": "enabled"
     },
+    "$figmaStyleReferences": {},
     "group": "Theme"
   },
   {
