@@ -12,23 +12,25 @@
     "group": "Theme"
   },
   {
-    "name": "Dark",
+    "name": "dark",
     "selectedTokenSets": {
       "primitives/color-scheme/dark/bekk": "enabled"
     },
     "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:1",
+    "$figmaStyleReferences": {},
     "group": "Color scheme"
   },
   {
-    "name": "Light",
+    "name": "light",
     "selectedTokenSets": {
       "primitives/color-scheme/light/bekk": "enabled"
     },
     "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
+    "$figmaStyleReferences": {},
     "group": "Color scheme"
   },
   {
@@ -43,7 +45,7 @@
   },
   {
     "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
-    "name": "Luft",
+    "name": "luft",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/luft": "enabled",
