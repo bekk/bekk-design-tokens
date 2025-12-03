@@ -29,5 +29,15 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
     "group": "Color scheme"
+  },
+  {
+    "id": "8d901c04393a4521347f0eddf7c601a8de669e0e",
+    "name": "vann",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/vann": "enabled"
+    },
+    "group": "Theme"
   }
 ]
