@@ -1,7 +1,9 @@
 {
   "tokenSetOrder": [
     "primitives/color-scheme/dark/bekk",
-    "primitives/typography",
+    "primitives/typography/style",
+    "primitives/typography/size/mobile",
+    "primitives/typography/size/desktop",
     "primitives/color-scheme/light/bekk",
     "themes/jord",
     "themes/bekk",
