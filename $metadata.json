@@ -2,6 +2,8 @@
   "tokenSetOrder": [
     "primitives/elevation",
     "primitives/color-scheme/dark/bekk",
+    "primitives/border",
+    "primitives/dimension",
     "primitives/color-scheme/light/bekk",
     "themes/jord",
     "themes/bekk",
@@ -9,6 +11,8 @@
     "themes/luft",
     "themes/vann",
     "semantic/elevation",
+    "semantic/border",
+    "semantic/dimension",
     "semantic/color"
   ]
 }
