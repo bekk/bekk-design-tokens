@@ -1,0 +1,26 @@
+{
+  "none": {
+    "$type": "borderRadius",
+    "$value": "{0}"
+  },
+  "sm": {
+    "$type": "borderRadius",
+    "$value": "{1}"
+  },
+  "md": {
+    "$type": "borderRadius",
+    "$value": "{2}"
+  },
+  "lg": {
+    "$type": "borderRadius",
+    "$value": "{3}"
+  },
+  "xl": {
+    "$type": "borderRadius",
+    "$value": "{4}"
+  },
+  "full": {
+    "$type": "borderRadius",
+    "$value": "{5}"
+  }
+}
