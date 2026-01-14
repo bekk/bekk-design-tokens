@@ -9,7 +9,8 @@
       "themes/ild": "enabled"
     },
     "$figmaStyleReferences": {},
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "name": "dark",
@@ -20,7 +21,8 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:1",
     "$figmaStyleReferences": {},
-    "group": "Color scheme"
+    "group": "Color scheme",
+    "$figmaVariableReferences": {}
   },
   {
     "name": "light",
@@ -31,7 +33,8 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
     "$figmaStyleReferences": {},
-    "group": "Color scheme"
+    "group": "Color scheme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "f905ebc4a1af61bd52847e6ac7e4d6696fc2b003",
@@ -41,7 +44,8 @@
       "semantic/color": "enabled",
       "themes/jord": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
@@ -51,7 +55,8 @@
       "themes/luft": "enabled",
       "semantic/color": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "8d901c04393a4521347f0eddf7c601a8de669e0e",
@@ -61,6 +66,7 @@
       "semantic/color": "enabled",
       "themes/vann": "enabled"
     },
-    "group": "Theme"
+    "group": "Theme",
+    "$figmaVariableReferences": {}
   }
 ]
