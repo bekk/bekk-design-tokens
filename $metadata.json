@@ -1,12 +1,14 @@
 {
   "tokenSetOrder": [
     "primitives/color-scheme/dark/bekk",
+    "primitives/border",
     "primitives/color-scheme/light/bekk",
     "themes/jord",
     "themes/bekk",
     "themes/ild",
     "themes/luft",
     "themes/vann",
+    "semantic/border",
     "semantic/color"
   ]
 }
