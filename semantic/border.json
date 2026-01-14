@@ -1,26 +1,42 @@
 {
-  "none": {
-    "$type": "borderRadius",
-    "$value": "{0}"
+  "radius": {
+    "none": {
+      "$type": "borderRadius",
+      "$value": "{radius.0}"
+    },
+    "sm": {
+      "$type": "borderRadius",
+      "$value": "{radius.1}"
+    },
+    "md": {
+      "$type": "borderRadius",
+      "$value": "{radius.2}"
+    },
+    "lg": {
+      "$type": "borderRadius",
+      "$value": "{radius.3}"
+    },
+    "xl": {
+      "$type": "borderRadius",
+      "$value": "{radius.4}"
+    },
+    "full": {
+      "$type": "borderRadius",
+      "$value": "{radius.5}"
+    }
   },
-  "sm": {
-    "$type": "borderRadius",
-    "$value": "{1}"
-  },
-  "md": {
-    "$type": "borderRadius",
-    "$value": "{2}"
-  },
-  "lg": {
-    "$type": "borderRadius",
-    "$value": "{3}"
-  },
-  "xl": {
-    "$type": "borderRadius",
-    "$value": "{4}"
-  },
-  "full": {
-    "$type": "borderRadius",
-    "$value": "{5}"
+  "border-width": {
+    "sm": {
+      "$type": "borderWidth",
+      "$value": "{border-width.1}"
+    },
+    "md": {
+      "$type": "borderWidth",
+      "$value": "{border-width.2}"
+    },
+    "lg": {
+      "$type": "borderWidth",
+      "$value": "{border-width.3}"
+    }
   }
 }
