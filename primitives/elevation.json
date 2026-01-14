@@ -28,7 +28,7 @@
           "blur": "2",
           "spread": "0",
           "color": "{bekk.shadow.2}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         }
       ]
     },
