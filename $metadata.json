@@ -8,6 +8,7 @@
     "primitives/border",
     "primitives/dimension",
     "primitives/color-scheme/light/bekk",
+    "primitives/typography",
     "themes/jord",
     "themes/bekk",
     "themes/ild",
