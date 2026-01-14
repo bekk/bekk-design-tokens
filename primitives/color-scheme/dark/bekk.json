@@ -797,6 +797,24 @@
         "$type": "color",
         "$value": "#b49acd"
       }
+    },
+    "shadow": {
+      "1": {
+        "$type": "color",
+        "$value": "rgba(255,255,255,0.1)"
+      },
+      "2": {
+        "$type": "color",
+        "$value": "rgba(255,255,255,0.12)"
+      },
+      "3": {
+        "$type": "color",
+        "$value": "rgba(255,255,255,0.14)"
+      },
+      "4": {
+        "$type": "color",
+        "$value": "rgba(255,255,255,0.16)"
+      }
     }
   }
 }

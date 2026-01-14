@@ -1,0 +1,152 @@
+{
+  "shadow": {
+    "0": {
+      "$type": "boxShadow",
+      "$value": {
+        "x": "0",
+        "y": "0",
+        "blur": "0",
+        "spread": "0",
+        "color": "#000000",
+        "type": "dropShadow"
+      }
+    },
+    "1": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0",
+          "color": "{bekk.shadow.4}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "innerShadow"
+        }
+      ]
+    },
+    "2": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0",
+          "color": "{bekk.shadow.3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "1",
+          "blur": "2",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "{bekk.shadow.1}",
+          "type": "innerShadow"
+        }
+      ]
+    },
+    "3": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0",
+          "color": "{bekk.shadow.3}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "2",
+          "blur": "4",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "innerShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "innerShadow"
+        }
+      ]
+    },
+    "4": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "3",
+          "blur": "5",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "6",
+          "blur": "12",
+          "spread": "0",
+          "color": "{bekk.shadow.3}",
+          "type": "innerShadow"
+        }
+      ]
+    },
+    "5": {
+      "$type": "boxShadow",
+      "$value": [
+        {
+          "x": "0",
+          "y": "0",
+          "blur": "1",
+          "spread": "0",
+          "color": "{bekk.shadow.2}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "4",
+          "blur": "8",
+          "spread": "0",
+          "color": "{bekk.shadow.4}",
+          "type": "dropShadow"
+        },
+        {
+          "x": "0",
+          "y": "12",
+          "blur": "24",
+          "spread": "0",
+          "color": "{bekk.shadow.4}",
+          "type": "dropShadow"
+        }
+      ]
+    }
+  }
+}

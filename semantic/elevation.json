@@ -1,0 +1,16 @@
+{
+  "card": {
+    "raised-default": {
+      "$type": "boxShadow",
+      "$value": "{shadow.2}"
+    },
+    "raised-hover": {
+      "$type": "boxShadow",
+      "$value": "{shadow.5}"
+    },
+    "raised-pressed": {
+      "$type": "boxShadow",
+      "$value": "{shadow.3}"
+    }
+  }
+}
