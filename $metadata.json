@@ -10,6 +10,7 @@
     "themes/ild",
     "themes/luft",
     "themes/vann",
+    "semantic/typography",
     "semantic/color"
   ]
 }

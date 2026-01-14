@@ -1,0 +1,69 @@
+{
+  "typography": {
+    "heading": {
+      "display": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{primitive.font-family}",
+          "fontWeight": "{primitive.font-weight.regular}",
+          "fontSize": "{primitive.font-size.6}",
+          "lineHeight": "{primitive.line-height.md}"
+        }
+      },
+      "headline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{primitive.font-family}",
+          "fontWeight": "{primitive.font-weight.regular}",
+          "fontSize": "{primitive.font-size.5}",
+          "lineHeight": "{primitive.line-height.md}"
+        }
+      },
+      "subtitle": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{primitive.font-family}",
+          "fontWeight": "{primitive.font-weight.regular}",
+          "fontSize": "{primitive.font-size.3}",
+          "lineHeight": "{primitive.line-height.md}"
+        }
+      },
+      "overline": {
+        "$type": "typography",
+        "$value": {
+          "fontFamily": "{primitive.font-family}",
+          "fontWeight": "{primitive.font-weight.regular}",
+          "fontSize": "{primitive.font-size.2}",
+          "lineHeight": "{primitive.line-height.md}"
+        }
+      }
+    },
+    "leading": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{primitive.font-family}",
+        "fontWeight": "{primitive.font-weight.regular}",
+        "fontSize": "{primitive.font-size.4}",
+        "lineHeight": "{primitive.line-height.md}"
+      }
+    },
+    "body": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{primitive.font-family}",
+        "fontWeight": "{primitive.font-weight.regular}",
+        "fontSize": "{primitive.font-size.2}",
+        "lineHeight": "{primitive.line-height.md}"
+      }
+    },
+    "action": {
+      "$type": "typography",
+      "$value": {
+        "fontFamily": "{primitive.font-family}",
+        "fontWeight": "{primitive.font-weight.expanded}",
+        "fontSize": "{primitive.font-size.1}",
+        "lineHeight": "{primitive.line-height.md}"
+      }
+    }
+  }
+}
