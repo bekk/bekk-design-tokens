@@ -57,7 +57,7 @@
           "blur": "4",
           "spread": "0",
           "color": "{bekk.shadow.1}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         }
       ]
     },
@@ -78,7 +78,7 @@
           "blur": "4",
           "spread": "0",
           "color": "{bekk.shadow.2}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         },
         {
           "x": "0",
@@ -86,7 +86,7 @@
           "blur": "8",
           "spread": "0",
           "color": "{bekk.shadow.2}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         }
       ]
     },
@@ -115,7 +115,7 @@
           "blur": "12",
           "spread": "0",
           "color": "{bekk.shadow.3}",
-          "type": "innerShadow"
+          "type": "dropShadow"
         }
       ]
     },
