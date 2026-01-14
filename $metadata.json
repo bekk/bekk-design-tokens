@@ -1,7 +1,7 @@
 {
   "tokenSetOrder": [
-    "primitives/color-scheme/dark/bekk",
     "primitives/elevation",
+    "primitives/color-scheme/dark/bekk",
     "primitives/color-scheme/light/bekk",
     "themes/jord",
     "themes/bekk",
