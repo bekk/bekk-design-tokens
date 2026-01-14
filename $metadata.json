@@ -2,6 +2,9 @@
   "tokenSetOrder": [
     "primitives/elevation",
     "primitives/color-scheme/dark/bekk",
+    "primitives/typography/style",
+    "primitives/typography/size/mobile",
+    "primitives/typography/size/desktop",
     "primitives/border",
     "primitives/dimension",
     "primitives/color-scheme/light/bekk",
@@ -10,6 +13,7 @@
     "themes/ild",
     "themes/luft",
     "themes/vann",
+    "semantic/typography",
     "semantic/elevation",
     "semantic/border",
     "semantic/dimension",

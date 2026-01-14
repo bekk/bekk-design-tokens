@@ -1,0 +1,26 @@
+{
+  "primitive": {
+    "font-family": {
+      "$type": "fontFamilies",
+      "$value": "GT America"
+    },
+    "font-weight": {
+      "light": {
+        "$type": "fontWeights",
+        "$value": "Light"
+      },
+      "regular": {
+        "$type": "fontWeights",
+        "$value": "Regular"
+      },
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "Medium"
+      },
+      "expanded": {
+        "$type": "fontWeights",
+        "$value": "Expanded Medium"
+      }
+    }
+  }
+}
