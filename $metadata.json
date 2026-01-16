@@ -1,13 +1,13 @@
 {
   "tokenSetOrder": [
     "primitives/elevation",
+    "primitives/color-scheme/light/bekk",
     "primitives/color-scheme/dark/bekk",
     "primitives/typography/style",
     "primitives/typography/size/mobile",
     "primitives/typography/size/desktop",
     "primitives/border",
     "primitives/dimension",
-    "primitives/color-scheme/light/bekk",
     "primitives/typography",
     "themes/jord",
     "themes/bekk",

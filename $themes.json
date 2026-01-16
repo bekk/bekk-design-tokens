@@ -9,20 +9,41 @@
       "themes/ild": "enabled"
     },
     "$figmaStyleReferences": {},
-    "group": "Theme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Theme"
   },
   {
-    "name": "dark",
-    "selectedTokenSets": {
-      "primitives/color-scheme/dark/bekk": "enabled"
-    },
-    "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
-    "$figmaCollectionId": "VariableCollectionId:34811:5472",
-    "$figmaModeId": "34811:1",
+    "id": "f905ebc4a1af61bd52847e6ac7e4d6696fc2b003",
+    "name": "jord",
     "$figmaStyleReferences": {},
-    "group": "Color scheme",
-    "$figmaVariableReferences": {}
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/jord": "enabled"
+    },
+    "$figmaVariableReferences": {},
+    "group": "Theme"
+  },
+  {
+    "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
+    "name": "luft",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "themes/luft": "enabled",
+      "semantic/color": "enabled"
+    },
+    "$figmaVariableReferences": {},
+    "group": "Theme"
+  },
+  {
+    "id": "8d901c04393a4521347f0eddf7c601a8de669e0e",
+    "name": "vann",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "semantic/color": "enabled",
+      "themes/vann": "enabled"
+    },
+    "$figmaVariableReferences": {},
+    "group": "Theme"
   },
   {
     "name": "light",
@@ -33,41 +54,20 @@
     "$figmaCollectionId": "VariableCollectionId:34811:5472",
     "$figmaModeId": "34811:0",
     "$figmaStyleReferences": {},
-    "group": "Color scheme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Color scheme"
   },
   {
-    "id": "f905ebc4a1af61bd52847e6ac7e4d6696fc2b003",
-    "name": "jord",
-    "$figmaStyleReferences": {},
+    "name": "dark",
     "selectedTokenSets": {
-      "semantic/color": "enabled",
-      "themes/jord": "enabled"
+      "primitives/color-scheme/dark/bekk": "enabled"
     },
-    "group": "Theme",
-    "$figmaVariableReferences": {}
-  },
-  {
-    "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
-    "name": "luft",
+    "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:1",
     "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "themes/luft": "enabled",
-      "semantic/color": "enabled"
-    },
-    "group": "Theme",
-    "$figmaVariableReferences": {}
-  },
-  {
-    "id": "8d901c04393a4521347f0eddf7c601a8de669e0e",
-    "name": "vann",
-    "$figmaStyleReferences": {},
-    "selectedTokenSets": {
-      "semantic/color": "enabled",
-      "themes/vann": "enabled"
-    },
-    "group": "Theme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Color scheme"
   },
   {
     "id": "383f031d4ee49ea3052f327f8db84416b5432c45",
