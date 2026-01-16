@@ -68,5 +68,23 @@
     },
     "group": "Theme",
     "$figmaVariableReferences": {}
+  },
+  {
+    "id": "383f031d4ee49ea3052f327f8db84416b5432c45",
+    "name": "mobile",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/typography/size/mobile": "enabled"
+    },
+    "group": "Size"
+  },
+  {
+    "id": "92179920dd04903c0618617490baa577318de010",
+    "name": "desktop",
+    "$figmaStyleReferences": {},
+    "selectedTokenSets": {
+      "primitives/typography/size/desktop": "enabled"
+    },
+    "group": "Size"
   }
 ]

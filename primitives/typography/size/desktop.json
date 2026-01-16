@@ -1,0 +1,44 @@
+{
+  "primitive": {
+    "line-height": {
+      "sm": {
+        "$type": "lineHeights",
+        "$value": "130%"
+      },
+      "md": {
+        "$type": "lineHeights",
+        "$value": "150%"
+      },
+      "lg": {
+        "$type": "lineHeights",
+        "$value": "170%"
+      }
+    },
+    "font-size": {
+      "1": {
+        "$type": "fontSizes",
+        "$value": "16"
+      },
+      "2": {
+        "$type": "fontSizes",
+        "$value": "20"
+      },
+      "3": {
+        "$type": "fontSizes",
+        "$value": "24"
+      },
+      "4": {
+        "$type": "fontSizes",
+        "$value": "32"
+      },
+      "5": {
+        "$type": "fontSizes",
+        "$value": "48"
+      },
+      "6": {
+        "$type": "fontSizes",
+        "$value": "56"
+      }
+    }
+  }
+}
