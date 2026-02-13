@@ -76,7 +76,8 @@
     "selectedTokenSets": {
       "primitives/typography/size/mobile": "enabled"
     },
-    "group": "Size"
+    "group": "Size",
+    "$figmaVariableReferences": {}
   },
   {
     "id": "92179920dd04903c0618617490baa577318de010",
@@ -85,6 +86,7 @@
     "selectedTokenSets": {
       "primitives/typography/size/desktop": "enabled"
     },
-    "group": "Size"
+    "group": "Size",
+    "$figmaVariableReferences": {}
   }
 ]

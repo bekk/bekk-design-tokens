@@ -1,6 +1,6 @@
 {
   "tokenSetOrder": [
-    "primitives/elevation",
+    "primitives/global",
     "primitives/color-scheme/dark/bekk",
     "primitives/typography/style",
     "primitives/typography/size/mobile",
@@ -9,12 +9,12 @@
     "primitives/dimension",
     "primitives/color-scheme/light/bekk",
     "primitives/typography",
+    "themes/whitelabel",
+    "themes/vann",
     "themes/jord",
-    "themes/bekk",
     "themes/ild",
     "themes/luft",
-    "themes/vann",
-    "semantic/global",
-    "semantic/theme-specific"
+    "semantic/theme-specific",
+    "semantic/global"
   ]
 }
