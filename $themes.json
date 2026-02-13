@@ -6,35 +6,12 @@
     "name": "ild",
     "selectedTokenSets": {
       "themes/ild": "enabled",
-      "semantic/theme-specific": "enabled"
+      "semantic/theme-specific": "enabled",
+      "primitives/typography/style": "source"
     },
     "$figmaStyleReferences": {},
-    "group": "Theme",
-    "$figmaVariableReferences": {}
-  },
-  {
-    "name": "dark",
-    "selectedTokenSets": {
-      "primitives/color-scheme/dark/bekk": "enabled"
-    },
-    "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
-    "$figmaCollectionId": "VariableCollectionId:34811:5472",
-    "$figmaModeId": "34811:1",
-    "$figmaStyleReferences": {},
-    "group": "Color scheme",
-    "$figmaVariableReferences": {}
-  },
-  {
-    "name": "light",
-    "selectedTokenSets": {
-      "primitives/color-scheme/light/bekk": "enabled"
-    },
-    "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
-    "$figmaCollectionId": "VariableCollectionId:34811:5472",
-    "$figmaModeId": "34811:0",
-    "$figmaStyleReferences": {},
-    "group": "Color scheme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Theme"
   },
   {
     "id": "f905ebc4a1af61bd52847e6ac7e4d6696fc2b003",
@@ -42,10 +19,11 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/jord": "enabled",
-      "semantic/theme-specific": "enabled"
+      "semantic/theme-specific": "enabled",
+      "primitives/typography/style": "source"
     },
-    "group": "Theme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Theme"
   },
   {
     "id": "715b0e13daaeb17f6960957d4fed9967a23cdcdc",
@@ -53,10 +31,11 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/luft": "enabled",
-      "semantic/theme-specific": "enabled"
+      "semantic/theme-specific": "enabled",
+      "primitives/typography/style": "source"
     },
-    "group": "Theme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Theme"
   },
   {
     "id": "8d901c04393a4521347f0eddf7c601a8de669e0e",
@@ -64,29 +43,60 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/vann": "enabled",
-      "semantic/theme-specific": "enabled"
+      "semantic/theme-specific": "enabled",
+      "primitives/typography/style": "source"
     },
-    "group": "Theme",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Theme"
+  },
+  {
+    "name": "light",
+    "selectedTokenSets": {
+      "primitives/color-scheme/light/bekk": "enabled",
+      "primitives/color-scheme/light/global": "enabled"
+    },
+    "id": "0daa3ca0b427b9349da7e7dc00101b5668972926",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:0",
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Color scheme"
+  },
+  {
+    "name": "dark",
+    "selectedTokenSets": {
+      "primitives/color-scheme/dark/bekk": "enabled",
+      "primitives/color-scheme/dark/global": "enabled"
+    },
+    "id": "9ebd8aed52afbffc17e2666e8b4653a53498b257",
+    "$figmaCollectionId": "VariableCollectionId:34811:5472",
+    "$figmaModeId": "34811:1",
+    "$figmaStyleReferences": {},
+    "$figmaVariableReferences": {},
+    "group": "Color scheme"
   },
   {
     "id": "383f031d4ee49ea3052f327f8db84416b5432c45",
     "name": "mobile",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives/typography/size/mobile": "enabled"
+      "primitives/typography/size/mobile": "enabled",
+      "primitives/size/common": "enabled",
+      "primitives/size/mobile": "source"
     },
-    "group": "Size",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Size"
   },
   {
     "id": "92179920dd04903c0618617490baa577318de010",
     "name": "desktop",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "primitives/typography/size/desktop": "enabled"
+      "primitives/typography/size/desktop": "enabled",
+      "primitives/size/common": "enabled",
+      "primitives/size/desktop": "source"
     },
-    "group": "Size",
-    "$figmaVariableReferences": {}
+    "$figmaVariableReferences": {},
+    "group": "Size"
   }
 ]

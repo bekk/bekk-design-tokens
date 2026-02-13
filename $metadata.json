@@ -2,9 +2,8 @@
   "tokenSetOrder": [
     "primitives/global",
     "primitives/size/common",
-    "primitives/size/small",
-    "primitives/size/medium",
-    "primitives/size/large",
+    "primitives/size/mobile",
+    "primitives/size/desktop",
     "primitives/typography/size/mobile",
     "primitives/typography/size/desktop",
     "primitives/typography/style",
