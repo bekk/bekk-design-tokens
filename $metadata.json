@@ -6,6 +6,7 @@
     "primitives/typography/style",
     "primitives/color-scheme/light/global",
     "primitives/color-scheme/light/bekk",
+    "primitives/color-scheme/dark/global",
     "primitives/color-scheme/dark/bekk",
     "primitives/dimension",
     "themes/whitelabel",

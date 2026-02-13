@@ -463,24 +463,6 @@
             "$type": "color",
             "$value": "#000000"
           }
-        },
-        "shadow": {
-          "1": {
-            "$type": "color",
-            "$value": "rgba(0,0,0,0.1)"
-          },
-          "2": {
-            "$type": "color",
-            "$value": "rgba(0,0,0,0.12)"
-          },
-          "3": {
-            "$type": "color",
-            "$value": "rgba(0,0,0,0.14)"
-          },
-          "4": {
-            "$type": "color",
-            "$value": "rgba(0,0,0,0.16)"
-          }
         }
       }
     }
