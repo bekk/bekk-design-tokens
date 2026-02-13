@@ -1,201 +1,225 @@
 {
-  "color": {
-    "dominant": {
-      "1": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.1}"
+  "theme": {
+    "color": {
+      "dominant": {
+        "1": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.1}"
+        },
+        "2": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.2}"
+        },
+        "3": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.3}"
+        },
+        "4": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.4}"
+        },
+        "5": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.5}"
+        },
+        "6": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.6}"
+        },
+        "7": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.7}"
+        },
+        "8": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.8}"
+        },
+        "9": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.9}"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.10}"
+        },
+        "11": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.11}"
+        },
+        "12": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.12}"
+        },
+        "13": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.13}"
+        },
+        "14": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.14}"
+        },
+        "15": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.15}"
+        },
+        "16": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.jord.16}"
+        }
       },
-      "2": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.2}"
+      "accent": {
+        "1": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.1}"
+        },
+        "2": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.2}"
+        },
+        "3": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.3}"
+        },
+        "4": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.4}"
+        },
+        "5": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.5}"
+        },
+        "6": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.6}"
+        },
+        "7": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.7}"
+        },
+        "8": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.8}"
+        },
+        "9": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.9}"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.10}"
+        },
+        "11": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.11}"
+        },
+        "12": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.12}"
+        },
+        "13": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.13}"
+        },
+        "14": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.14}"
+        },
+        "15": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.15}"
+        },
+        "16": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.rebell.16}"
+        }
       },
-      "3": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.3}"
-      },
-      "4": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.4}"
-      },
-      "5": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.5}"
-      },
-      "6": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.6}"
-      },
-      "7": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.7}"
-      },
-      "8": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.8}"
-      },
-      "9": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.9}"
-      },
-      "10": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.10}"
-      },
-      "11": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.11}"
-      },
-      "12": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.12}"
-      },
-      "13": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.13}"
-      },
-      "14": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.14}"
-      },
-      "15": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.15}"
-      },
-      "16": {
-        "$type": "color",
-        "$value": "{primitive.color.global.jord.16}"
+      "neutral": {
+        "1": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.1}"
+        },
+        "2": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.2}"
+        },
+        "3": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.3}"
+        },
+        "4": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.4}"
+        },
+        "5": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.5}"
+        },
+        "6": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.6}"
+        },
+        "7": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.7}"
+        },
+        "8": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.8}"
+        },
+        "9": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.9}"
+        },
+        "10": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.10}"
+        },
+        "11": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.11}"
+        },
+        "12": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.12}"
+        },
+        "13": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.13}"
+        },
+        "14": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.14}"
+        },
+        "15": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.15}"
+        },
+        "16": {
+          "$type": "color",
+          "$value": "{primitive.color.bekk.natt.16}"
+        }
       }
     },
-    "accent": {
-      "1": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.1}"
-      },
-      "2": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.2}"
-      },
-      "3": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.3}"
-      },
-      "4": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.4}"
-      },
-      "5": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.5}"
-      },
-      "6": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.6}"
-      },
-      "7": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.7}"
-      },
-      "8": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.8}"
-      },
-      "9": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.9}"
-      },
-      "10": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.10}"
-      },
-      "11": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.11}"
-      },
-      "12": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.12}"
-      },
-      "13": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.13}"
-      },
-      "14": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.14}"
-      },
-      "15": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.15}"
-      },
-      "16": {
-        "$type": "color",
-        "$value": "{primitive.color.global.rebell.16}"
-      }
+    "font-family": {
+      "$type": "fontFamilies",
+      "$value": "{primitive.font-family}"
     },
-    "neutral": {
-      "1": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.1}"
+    "font-weight": {
+      "light": {
+        "$type": "fontWeights",
+        "$value": "{primitive.font-weight.light}"
       },
-      "2": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.2}"
+      "regular": {
+        "$type": "fontWeights",
+        "$value": "{primitive.font-weight.regular}"
       },
-      "3": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.3}"
+      "medium": {
+        "$type": "fontWeights",
+        "$value": "{primitive.font-weight.medium}"
       },
-      "4": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.4}"
-      },
-      "5": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.5}"
-      },
-      "6": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.6}"
-      },
-      "7": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.7}"
-      },
-      "8": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.8}"
-      },
-      "9": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.9}"
-      },
-      "10": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.10}"
-      },
-      "11": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.11}"
-      },
-      "12": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.12}"
-      },
-      "13": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.13}"
-      },
-      "14": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.14}"
-      },
-      "15": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.15}"
-      },
-      "16": {
-        "$type": "color",
-        "$value": "{primitive.color.bekk.natt.16}"
+      "expanded": {
+        "$type": "fontWeights",
+        "$value": "{primitive.font-weight.expanded}"
       }
     }
   }
