@@ -207,7 +207,8 @@
           "fontFamily": "{primitive.font-family}",
           "fontWeight": "{primitive.font-weight.regular}",
           "fontSize": "{primitive.font-size.6}",
-          "lineHeight": "{primitive.line-height.md}"
+          "lineHeight": "{primitive.line-height.md}",
+          "textCase": "{primitive.text-case.none}"
         }
       },
       "headline": {
@@ -216,7 +217,8 @@
           "fontFamily": "{primitive.font-family}",
           "fontWeight": "{primitive.font-weight.regular}",
           "fontSize": "{primitive.font-size.5}",
-          "lineHeight": "{primitive.line-height.md}"
+          "lineHeight": "{primitive.line-height.md}",
+          "textCase": "{primitive.text-case.none}"
         }
       },
       "subtitle": {
@@ -225,7 +227,8 @@
           "fontFamily": "{primitive.font-family}",
           "fontWeight": "{primitive.font-weight.regular}",
           "fontSize": "{primitive.font-size.3}",
-          "lineHeight": "{primitive.line-height.md}"
+          "lineHeight": "{primitive.line-height.md}",
+          "textCase": "{primitive.text-case.none}"
         }
       },
       "overline": {
@@ -234,7 +237,8 @@
           "fontFamily": "{primitive.font-family}",
           "fontWeight": "{primitive.font-weight.regular}",
           "fontSize": "{primitive.font-size.2}",
-          "lineHeight": "{primitive.line-height.md}"
+          "lineHeight": "{primitive.line-height.md}",
+          "textCase": "{primitive.text-case.none}"
         }
       }
     },
@@ -244,7 +248,8 @@
         "fontFamily": "{primitive.font-family}",
         "fontWeight": "{primitive.font-weight.regular}",
         "fontSize": "{primitive.font-size.4}",
-        "lineHeight": "{primitive.line-height.md}"
+        "lineHeight": "{primitive.line-height.md}",
+        "textCase": "{primitive.text-case.none}"
       }
     },
     "body": {
@@ -253,7 +258,8 @@
         "fontFamily": "{primitive.font-family}",
         "fontWeight": "{primitive.font-weight.regular}",
         "fontSize": "{primitive.font-size.2}",
-        "lineHeight": "{primitive.line-height.md}"
+        "lineHeight": "{primitive.line-height.md}",
+        "textCase": "{primitive.text-case.none}"
       }
     },
     "action": {
@@ -262,7 +268,8 @@
         "fontFamily": "{primitive.font-family}",
         "fontWeight": "{primitive.font-weight.expanded}",
         "fontSize": "{primitive.font-size.1}",
-        "lineHeight": "{primitive.line-height.md}"
+        "lineHeight": "{primitive.line-height.md}",
+        "textCase": "{primitive.text-case.uppercase}"
       }
     }
   }

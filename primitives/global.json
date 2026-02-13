@@ -40,6 +40,20 @@
         "$value": "4"
       }
     },
+    "text-case": {
+      "none": {
+        "$type": "textCase",
+        "$value": "null"
+      },
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      "lowercase": {
+        "$type": "textCase",
+        "$value": "lowercase"
+      }
+    },
     "shadow": {
       "0": {
         "$type": "boxShadow",
