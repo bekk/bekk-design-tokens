@@ -1,0 +1,208 @@
+{
+  "primitive": {
+    "border-radius": {
+      "0": {
+        "$type": "borderRadius",
+        "$value": "0"
+      },
+      "1": {
+        "$type": "borderRadius",
+        "$value": "2"
+      },
+      "2": {
+        "$type": "borderRadius",
+        "$value": "4"
+      },
+      "3": {
+        "$type": "borderRadius",
+        "$value": "8"
+      },
+      "4": {
+        "$type": "borderRadius",
+        "$value": "12"
+      },
+      "5": {
+        "$type": "borderRadius",
+        "$value": "9999"
+      }
+    },
+    "border-width": {
+      "1": {
+        "$type": "borderWidth",
+        "$value": "1"
+      },
+      "2": {
+        "$type": "borderWidth",
+        "$value": "2"
+      },
+      "3": {
+        "$type": "borderWidth",
+        "$value": "4"
+      }
+    },
+    "text-case": {
+      "none": {
+        "$type": "textCase",
+        "$value": "null"
+      },
+      "uppercase": {
+        "$type": "textCase",
+        "$value": "uppercase"
+      },
+      "lowercase": {
+        "$type": "textCase",
+        "$value": "lowercase"
+      }
+    },
+    "shadow": {
+      "0": {
+        "$type": "boxShadow",
+        "$value": {
+          "x": "0",
+          "y": "0",
+          "blur": "0",
+          "spread": "0",
+          "color": "#000000",
+          "type": "dropShadow"
+        }
+      },
+      "1": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.4}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "2": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.3}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "1",
+            "blur": "2",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.1}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "3": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.3}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "2",
+            "blur": "4",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "4": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "3",
+            "blur": "5",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "6",
+            "blur": "12",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.3}",
+            "type": "dropShadow"
+          }
+        ]
+      },
+      "5": {
+        "$type": "boxShadow",
+        "$value": [
+          {
+            "x": "0",
+            "y": "0",
+            "blur": "1",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.2}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "4",
+            "blur": "8",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.4}",
+            "type": "dropShadow"
+          },
+          {
+            "x": "0",
+            "y": "12",
+            "blur": "24",
+            "spread": "0",
+            "color": "{primitive.color.global.shadow.4}",
+            "type": "dropShadow"
+          }
+        ]
+      }
+    }
+  }
+}
