@@ -14,10 +14,7 @@
     "themes/ild",
     "themes/luft",
     "themes/vann",
-    "semantic/typography",
-    "semantic/elevation",
-    "semantic/border",
-    "semantic/dimension",
-    "semantic/color"
+    "semantic/global",
+    "semantic/theme-specific"
   ]
 }

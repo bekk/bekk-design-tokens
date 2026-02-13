@@ -5,8 +5,8 @@
     "$figmaModeId": "40960:6",
     "name": "ild",
     "selectedTokenSets": {
-      "semantic/color": "enabled",
-      "themes/ild": "enabled"
+      "themes/ild": "enabled",
+      "semantic/theme-specific": "enabled"
     },
     "$figmaStyleReferences": {},
     "group": "Theme",
@@ -41,8 +41,8 @@
     "name": "jord",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "semantic/color": "enabled",
-      "themes/jord": "enabled"
+      "themes/jord": "enabled",
+      "semantic/theme-specific": "enabled"
     },
     "group": "Theme",
     "$figmaVariableReferences": {}
@@ -53,7 +53,7 @@
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
       "themes/luft": "enabled",
-      "semantic/color": "enabled"
+      "semantic/theme-specific": "enabled"
     },
     "group": "Theme",
     "$figmaVariableReferences": {}
@@ -63,8 +63,8 @@
     "name": "vann",
     "$figmaStyleReferences": {},
     "selectedTokenSets": {
-      "semantic/color": "enabled",
-      "themes/vann": "enabled"
+      "themes/vann": "enabled",
+      "semantic/theme-specific": "enabled"
     },
     "group": "Theme",
     "$figmaVariableReferences": {}
