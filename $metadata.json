@@ -4,9 +4,6 @@
     "primitives/size/common",
     "primitives/size/mobile",
     "primitives/size/desktop",
-    "primitives/size/large",
-    "primitives/size/medium",
-    "primitives/size/small",
     "primitives/typography/style",
     "primitives/typography/size/mobile",
     "primitives/typography/size/desktop",
@@ -18,6 +15,7 @@
     "themes/ild",
     "themes/jord",
     "themes/luft",
+    "themes/whitelabel",
     "semantic/theme-specific",
     "semantic/global"
   ]
