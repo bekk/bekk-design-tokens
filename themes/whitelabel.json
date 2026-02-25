@@ -267,67 +267,67 @@
     "warning": {
       "1": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.1}"
+        "$value": "{primitive.color.global.orange.1}"
       },
       "2": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.2}"
+        "$value": "{primitive.color.global.orange.2}"
       },
       "3": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.3}"
+        "$value": "{primitive.color.global.orange.3}"
       },
       "4": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.4}"
+        "$value": "{primitive.color.global.orange.4}"
       },
       "5": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.5}"
+        "$value": "{primitive.color.global.orange.5}"
       },
       "6": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.6}"
+        "$value": "{primitive.color.global.orange.6}"
       },
       "7": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.7}"
+        "$value": "{primitive.color.global.orange.7}"
       },
       "8": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.8}"
+        "$value": "{primitive.color.global.orange.8}"
       },
       "9": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.9}"
+        "$value": "{primitive.color.global.orange.9}"
       },
       "10": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.10}"
+        "$value": "{primitive.color.global.orange.10}"
       },
       "11": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.11}"
+        "$value": "{primitive.color.global.orange.11}"
       },
       "12": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.12}"
+        "$value": "{primitive.color.global.orange.12}"
       },
       "13": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.13}"
+        "$value": "{primitive.color.global.orange.13}"
       },
       "14": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.14}"
+        "$value": "{primitive.color.global.orange.14}"
       },
       "15": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.15}"
+        "$value": "{primitive.color.global.orange.15}"
       },
       "16": {
         "$type": "color",
-        "$value": "{primitive.color.global.yellow.16}"
+        "$value": "{primitive.color.global.orange.16}"
       }
     },
     "danger": {
