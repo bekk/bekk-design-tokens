@@ -1,0 +1,12 @@
+{
+  "tokenSetOrder": [
+    "Primitives/Primitives",
+    "Themes/Vann",
+    "Themes/Jord",
+    "Themes/Ild",
+    "Themes/Luft",
+    "Global/Color",
+    "Semantic/Light",
+    "Semantic/Dark"
+  ]
+}
