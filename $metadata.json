@@ -1,5 +1,6 @@
 {
   "tokenSetOrder": [
+    "primitives/color",
     "primitives/global",
     "primitives/size/common",
     "primitives/size/mobile",
@@ -7,16 +8,11 @@
     "primitives/typography/style",
     "primitives/typography/size/mobile",
     "primitives/typography/size/desktop",
-    "primitives/color-scheme/light/global",
-    "primitives/color-scheme/light/bekk",
-    "primitives/color-scheme/dark/global",
-    "primitives/color-scheme/dark/bekk",
-    "themes/vann",
-    "themes/ild",
-    "themes/jord",
-    "themes/luft",
-    "themes/whitelabel",
-    "semantic/theme-specific",
-    "semantic/global"
+    "theme/Vann",
+    "theme/Jord",
+    "theme/Ild",
+    "theme/Luft",
+    "semantic/Light",
+    "semantic/Dark"
   ]
 }
