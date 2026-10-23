@@ -1,0 +1,366 @@
+{
+  "color": {
+    "text": {
+      "brand": {
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.light.text.brand.contrast}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.text.brand.default}"
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.light.text.disabled}"
+      },
+      "subtle": {
+        "$type": "color",
+        "$value": "{color.light.text.subtle}"
+      },
+      "warning": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.orange.800}"
+        },
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        }
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.light.text.default}"
+      },
+      "danger": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.red.800}"
+        },
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        }
+      },
+      "accent": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.text.accent.default}"
+        },
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.light.text.accent.contrast}"
+        }
+      },
+      "success": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.green.800}"
+        },
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        }
+      },
+      "interactive": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.purple.800}"
+        },
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        }
+      },
+      "info": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.blue.800}"
+        },
+        "contrast": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        }
+      }
+    },
+    "surface": {
+      "success": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.green.50}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.green.100}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.25}"
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.light.surface.disabled}"
+      },
+      "interactive": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.purple.100}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.purple.25}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.purple.50}"
+        }
+      },
+      "accent": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.light.surface.accent.active}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.surface.accent.default}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.light.surface.accent.hover}"
+        }
+      },
+      "warning": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.orange.50}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.orange.25}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.orange.100}"
+        }
+      },
+      "info": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.blue.25}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.blue.50}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.blue.100}"
+        }
+      },
+      "brand": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.surface.brand.default}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.light.surface.brand.hover}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.light.surface.brand.active}"
+        }
+      },
+      "danger": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.red.50}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.red.25}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.red.100}"
+        }
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.light.surface.default}"
+      }
+    },
+    "base": {
+      "accent": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.light.base.accent.hover}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.base.accent.default}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.light.base.accent.active}"
+        }
+      },
+      "brand": {
+        "hover": {
+          "$type": "color",
+          "$value": "{color.light.base.brand.hover}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.light.base.brand.active}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.base.brand.default}"
+        }
+      },
+      "danger": {
+        "active": {
+          "$type": "color",
+          "$value": "{color.red.500}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.red.700}"
+        },
+        "default": {
+          "$type": "color",
+          "$value": "{color.red.600}"
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.light.base.disabled}"
+      },
+      "success": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.green.600}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.green.700}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.green.500}"
+        }
+      },
+      "info": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.blue.600}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.blue.700}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.blue.500}"
+        }
+      },
+      "warning": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.orange.600}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.orange.700}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.orange.500}"
+        }
+      },
+      "interactive": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.purple.600}"
+        },
+        "hover": {
+          "$type": "color",
+          "$value": "{color.purple.700}"
+        },
+        "active": {
+          "$type": "color",
+          "$value": "{color.purple.500}"
+        }
+      }
+    },
+    "border": {
+      "warning": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.orange.300}"
+        }
+      },
+      "accent": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.border.accent.default}"
+        }
+      },
+      "disabled": {
+        "$type": "color",
+        "$value": "{color.light.border.disabled}"
+      },
+      "success": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.green.300}"
+        }
+      },
+      "brand": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.light.border.brand.default}"
+        }
+      },
+      "default": {
+        "$type": "color",
+        "$value": "{color.light.border.default}"
+      },
+      "interactive": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.purple.300}"
+        }
+      },
+      "info": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.blue.300}"
+        }
+      },
+      "danger": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.red.300}"
+        }
+      }
+    },
+    "bg": {
+      "default": {
+        "$type": "color",
+        "$value": "{color.light.bg.default}"
+      },
+      "brand": {
+        "$type": "color",
+        "$value": "{color.light.bg.brand}"
+      },
+      "accent": {
+        "$type": "color",
+        "$value": "{color.light.bg.accent}"
+      }
+    }
+  }
+}

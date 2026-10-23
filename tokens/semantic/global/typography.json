@@ -1,0 +1,277 @@
+{
+  "leading": {
+    "$type": "typography",
+    "fontFamily": {
+      "$type": "fontFamily",
+      "$value": "GT America"
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "$value": "Regular"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "32px"
+    },
+    "lineHeight": {
+      "$type": "number",
+      "$value": "150"
+    },
+    "letterSpacing": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "paragraphSpacing": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "paragraphIndent": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "textCase": {
+      "$type": "string",
+      "$value": "original"
+    },
+    "textDecoration": {
+      "$type": "string",
+      "$value": "none"
+    }
+  },
+  "body": {
+    "$type": "typography",
+    "fontFamily": {
+      "$type": "fontFamily",
+      "$value": "GT America"
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "$value": "Regular"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "20px"
+    },
+    "lineHeight": {
+      "$type": "number",
+      "$value": "150"
+    },
+    "letterSpacing": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "paragraphSpacing": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "paragraphIndent": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "textCase": {
+      "$type": "string",
+      "$value": "original"
+    },
+    "textDecoration": {
+      "$type": "string",
+      "$value": "none"
+    }
+  },
+  "action": {
+    "$type": "typography",
+    "fontFamily": {
+      "$type": "fontFamily",
+      "$value": "GT America"
+    },
+    "fontWeight": {
+      "$type": "fontWeight",
+      "$value": "Expanded Medium"
+    },
+    "fontSize": {
+      "$type": "dimension",
+      "$value": "16px"
+    },
+    "lineHeight": {
+      "$type": "number",
+      "$value": "150"
+    },
+    "letterSpacing": {
+      "$type": "dimension",
+      "$value": "0"
+    },
+    "paragraphSpacing": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "paragraphIndent": {
+      "$type": "dimension",
+      "$value": "0px"
+    },
+    "textCase": {
+      "$type": "string",
+      "$value": "upper"
+    },
+    "textDecoration": {
+      "$type": "string",
+      "$value": "none"
+    }
+  },
+  "heading": {
+    "display": {
+      "$type": "typography",
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      },
+      "fontWeight": {
+        "$type": "fontWeight",
+        "$value": "Regular"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "56px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": "150"
+      },
+      "letterSpacing": {
+        "$type": "dimension",
+        "$value": "0"
+      },
+      "paragraphSpacing": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "paragraphIndent": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "textCase": {
+        "$type": "string",
+        "$value": "original"
+      },
+      "textDecoration": {
+        "$type": "string",
+        "$value": "none"
+      }
+    },
+    "headline": {
+      "$type": "typography",
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      },
+      "fontWeight": {
+        "$type": "fontWeight",
+        "$value": "Regular"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "48px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": "150"
+      },
+      "letterSpacing": {
+        "$type": "dimension",
+        "$value": "0"
+      },
+      "paragraphSpacing": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "paragraphIndent": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "textCase": {
+        "$type": "string",
+        "$value": "original"
+      },
+      "textDecoration": {
+        "$type": "string",
+        "$value": "none"
+      }
+    },
+    "subtitle": {
+      "$type": "typography",
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      },
+      "fontWeight": {
+        "$type": "fontWeight",
+        "$value": "Regular"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "24px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": "150"
+      },
+      "letterSpacing": {
+        "$type": "dimension",
+        "$value": "0"
+      },
+      "paragraphSpacing": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "paragraphIndent": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "textCase": {
+        "$type": "string",
+        "$value": "original"
+      },
+      "textDecoration": {
+        "$type": "string",
+        "$value": "none"
+      }
+    },
+    "overline": {
+      "$type": "typography",
+      "fontFamily": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      },
+      "fontWeight": {
+        "$type": "fontWeight",
+        "$value": "Regular"
+      },
+      "fontSize": {
+        "$type": "dimension",
+        "$value": "20px"
+      },
+      "lineHeight": {
+        "$type": "number",
+        "$value": "150"
+      },
+      "letterSpacing": {
+        "$type": "dimension",
+        "$value": "0"
+      },
+      "paragraphSpacing": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "paragraphIndent": {
+        "$type": "dimension",
+        "$value": "0px"
+      },
+      "textCase": {
+        "$type": "string",
+        "$value": "original"
+      },
+      "textDecoration": {
+        "$type": "string",
+        "$value": "none"
+      }
+    }
+  }
+}

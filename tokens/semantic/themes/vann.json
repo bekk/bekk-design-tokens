@@ -1,0 +1,292 @@
+{
+  "color": {
+    "light": {
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.grey.25}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{color.vann.25}"
+        }
+      },
+      "surface": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.black.5}"
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.50}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.rebell.50}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.rebell.25}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.50}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.vann.100}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.vann.200}"
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.800}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.black.20}"
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.800}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.300}"
+          }
+        }
+      },
+      "base": {
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.black.10}"
+        },
+        "brand": {
+          "hover": {
+            "$type": "color",
+            "$value": "{color.rebell.50}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.rebell.25}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.100}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.200}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.vann.300}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.vann.100}"
+          }
+        }
+      },
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.800}"
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.grey.500}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.black.20}"
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.800}"
+          },
+          "contrast": {
+            "$type": "color",
+            "$value": "{color.grey.800}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.800}"
+          },
+          "contrast": {
+            "$type": "color",
+            "$value": "{color.vann.50}"
+          }
+        }
+      }
+    },
+    "dark": {
+      "bg": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.black.100}"
+        },
+        "brand": {
+          "$type": "color",
+          "$value": "{color.grey.900}"
+        },
+        "accent": {
+          "$type": "color",
+          "$value": "{color.vann.900}"
+        }
+      },
+      "surface": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.black.100}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.white.10}"
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.700}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.rebell.50}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.rebell.100}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.800}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.vann.700}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.vann.900}"
+          }
+        }
+      },
+      "border": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.grey.25}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.white.20}"
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.25}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.500}"
+          }
+        }
+      },
+      "text": {
+        "default": {
+          "$type": "color",
+          "$value": "{color.white.100}"
+        },
+        "subtle": {
+          "$type": "color",
+          "$value": "{color.grey.200}"
+        },
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.white.20}"
+        },
+        "brand": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.white.100}"
+          },
+          "contrast": {
+            "$type": "color",
+            "$value": "{color.grey.800}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.50}"
+          },
+          "contrast": {
+            "$type": "color",
+            "$value": "{color.vann.800}"
+          }
+        }
+      },
+      "base": {
+        "disabled": {
+          "$type": "color",
+          "$value": "{color.white.10}"
+        },
+        "brand": {
+          "hover": {
+            "$type": "color",
+            "$value": "{color.rebell.50}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.rebell.100}"
+          },
+          "default": {
+            "$type": "color",
+            "$value": "{color.grey.800}"
+          }
+        },
+        "accent": {
+          "default": {
+            "$type": "color",
+            "$value": "{color.vann.600}"
+          },
+          "hover": {
+            "$type": "color",
+            "$value": "{color.vann.700}"
+          },
+          "active": {
+            "$type": "color",
+            "$value": "{color.vann.500}"
+          }
+        }
+      }
+    }
+  }
+}
