@@ -1,0 +1,62 @@
+{
+  "border-width": {
+    "default": {
+      "$type": "dimension",
+      "$value": "1px"
+    },
+    "highlight": {
+      "$type": "dimension",
+      "$value": "2px"
+    },
+    "focus": {
+      "$type": "dimension",
+      "$value": "4px"
+    }
+  },
+  "font": {
+    "family": {
+      "base": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      },
+      "display": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      },
+      "action": {
+        "$type": "fontFamily",
+        "$value": "GT America"
+      }
+    },
+    "weight": {
+      "light": {
+        "$type": "fontWeight",
+        "$value": "Light"
+      },
+      "regular": {
+        "$type": "fontWeight",
+        "$value": "Regular"
+      },
+      "medium": {
+        "$type": "fontWeight",
+        "$value": "Medium"
+      },
+      "expanded-medium": {
+        "$type": "fontWeight",
+        "$value": "Expanded Medium"
+      },
+      "light-italic": {
+        "$type": "fontWeight",
+        "$value": "Light Italic"
+      },
+      "medium-italic": {
+        "$type": "fontWeight",
+        "$value": "Medium Italic"
+      },
+      "regular-italic": {
+        "$type": "fontWeight",
+        "$value": "Regular Italic"
+      }
+    }
+  }
+}
