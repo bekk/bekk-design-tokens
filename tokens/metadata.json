@@ -49,5 +49,22 @@
       }
     }
   },
-  "ignoredCollections": []
+  "ignoredCollections": [],
+  "platforms": {
+    "css": {
+      "enabled": true
+    },
+    "js": {
+      "enabled": true
+    },
+    "ts": {
+      "enabled": true
+    },
+    "dart": {
+      "enabled": true
+    },
+    "swift": {
+      "enabled": true
+    }
+  }
 }
