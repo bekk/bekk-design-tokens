@@ -23,7 +23,9 @@
       "primitives": [
         "primitives"
       ],
-      "global": [],
+      "global": [
+        "global"
+      ],
       "themes": [
         "theme"
       ],
@@ -46,6 +48,12 @@
       },
       "sizes": {
         "primitive": "size"
+      },
+      "global": {
+        "radius": "global",
+        "spacing": "global",
+        "border-width": "global",
+        "font": "global"
       }
     }
   },
