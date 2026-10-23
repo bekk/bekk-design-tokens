@@ -1,0 +1,49 @@
+{
+  "version": "1.0.0",
+  "themes": [
+    "default"
+  ],
+  "colorSchemes": [
+    "light",
+    "dark"
+  ],
+  "sizes": [],
+  "sizeBreakpoints": {},
+  "figma": {
+    "fileKey": "",
+    "collections": {
+      "primitives": [
+        "Primitives"
+      ],
+      "global": [
+        "Global"
+      ],
+      "themes": [
+        "Themes"
+      ],
+      "semantic": [
+        "Semantic"
+      ],
+      "sizes": []
+    },
+    "collectionSources": {}
+  },
+  "ignoredCollections": [],
+  "platforms": {
+    "css": {
+      "enabled": true
+    },
+    "js": {
+      "enabled": true
+    },
+    "ts": {
+      "enabled": true
+    },
+    "dart": {
+      "enabled": true
+    },
+    "swift": {
+      "enabled": true
+    }
+  }
+}
