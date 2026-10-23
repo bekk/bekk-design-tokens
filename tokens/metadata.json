@@ -63,16 +63,16 @@
       "enabled": true
     },
     "js": {
-      "enabled": true
+      "enabled": false
     },
     "ts": {
-      "enabled": true
+      "enabled": false
     },
     "dart": {
-      "enabled": true
+      "enabled": false
     },
     "swift": {
-      "enabled": true
+      "enabled": false
     }
   }
 }
