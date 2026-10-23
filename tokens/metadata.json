@@ -1,0 +1,53 @@
+{
+  "version": "1.0.0",
+  "themes": [
+    "Vann",
+    "Jord",
+    "Ild",
+    "Luft"
+  ],
+  "colorSchemes": [
+    "Light",
+    "Dark"
+  ],
+  "sizes": [
+    "mobile",
+    "desktop"
+  ],
+  "sizeBreakpoints": {
+    "desktop": 768
+  },
+  "figma": {
+    "fileKey": "",
+    "collections": {
+      "primitives": [
+        "primitives"
+      ],
+      "global": [],
+      "themes": [
+        "theme"
+      ],
+      "semantic": [
+        "semantic"
+      ],
+      "sizes": [
+        "size"
+      ]
+    },
+    "collectionSources": {
+      "primitives": {
+        "color": "primitives"
+      },
+      "themes": {
+        "color": "theme"
+      },
+      "semantic": {
+        "color": "semantic"
+      },
+      "sizes": {
+        "primitive": "size"
+      }
+    }
+  },
+  "ignoredCollections": []
+}
