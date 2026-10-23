@@ -24,6 +24,10 @@
       "6": {
         "$type": "dimension",
         "$value": "56px"
+      },
+      "1-5": {
+        "$type": "dimension",
+        "$value": "18px"
       }
     },
     "dimension": {
@@ -172,46 +176,6 @@
         "$value": "18px"
       },
       "step": {
-        "$type": "dimension",
-        "$value": "4px"
-      }
-    },
-    "radius": {
-      "none": {
-        "$type": "dimension",
-        "$value": "0px"
-      },
-      "sm": {
-        "$type": "dimension",
-        "$value": "2px"
-      },
-      "md": {
-        "$type": "dimension",
-        "$value": "4px"
-      },
-      "lg": {
-        "$type": "dimension",
-        "$value": "8px"
-      },
-      "xl": {
-        "$type": "dimension",
-        "$value": "12px"
-      },
-      "full": {
-        "$type": "dimension",
-        "$value": "9999px"
-      }
-    },
-    "border-width": {
-      "default": {
-        "$type": "dimension",
-        "$value": "1px"
-      },
-      "highlight": {
-        "$type": "dimension",
-        "$value": "2px"
-      },
-      "focus": {
         "$type": "dimension",
         "$value": "4px"
       }
