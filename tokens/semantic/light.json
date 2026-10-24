@@ -114,11 +114,11 @@
         },
         "active": {
           "$type": "color",
-          "$value": "{color.green.100}"
+          "$value": "{color.green.300}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.green.25}"
+          "$value": "{color.green.200}"
         },
         "tinted": {
           "$type": "color",
@@ -244,11 +244,11 @@
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.red.25}"
+          "$value": "{color.red.200}"
         },
         "active": {
           "$type": "color",
-          "$value": "{color.red.100}"
+          "$value": "{color.red.300}"
         },
         "tinted": {
           "$type": "color",
@@ -288,11 +288,11 @@
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.orange.25}"
+          "$value": "{color.orange.200}"
         },
         "active": {
           "$type": "color",
-          "$value": "{color.orange.100}"
+          "$value": "{color.orange.300}"
         },
         "tinted": {
           "$type": "color",
@@ -324,11 +324,11 @@
       "surface": {
         "active": {
           "$type": "color",
-          "$value": "{color.purple.100}"
+          "$value": "{color.purple.300}"
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.purple.25}"
+          "$value": "{color.purple.200}"
         },
         "default": {
           "$type": "color",
@@ -376,7 +376,7 @@
       "surface": {
         "hover": {
           "$type": "color",
-          "$value": "{color.blue.25}"
+          "$value": "{color.blue.200}"
         },
         "default": {
           "$type": "color",
@@ -384,7 +384,7 @@
         },
         "active": {
           "$type": "color",
-          "$value": "{color.blue.100}"
+          "$value": "{color.blue.300}"
         },
         "tinted": {
           "$type": "color",
