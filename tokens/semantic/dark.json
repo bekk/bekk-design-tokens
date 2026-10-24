@@ -118,7 +118,7 @@
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.green.700}"
+          "$value": "{color.green.600}"
         },
         "tinted": {
           "$type": "color",
@@ -244,7 +244,7 @@
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.red.700}"
+          "$value": "{color.red.600}"
         },
         "active": {
           "$type": "color",
@@ -288,7 +288,7 @@
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.orange.700}"
+          "$value": "{color.orange.600}"
         },
         "active": {
           "$type": "color",
@@ -328,7 +328,7 @@
         },
         "hover": {
           "$type": "color",
-          "$value": "{color.purple.700}"
+          "$value": "{color.purple.600}"
         },
         "default": {
           "$type": "color",
@@ -376,7 +376,7 @@
       "surface": {
         "hover": {
           "$type": "color",
-          "$value": "{color.blue.700}"
+          "$value": "{color.blue.600}"
         },
         "default": {
           "$type": "color",

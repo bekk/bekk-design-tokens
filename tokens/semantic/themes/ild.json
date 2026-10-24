@@ -63,7 +63,7 @@
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.rebell.50}"
+            "$value": "{color.rebell.100}"
           },
           "active": {
             "$type": "color",
@@ -83,15 +83,15 @@
         "base": {
           "hover": {
             "$type": "color",
-            "$value": "{color.rebell.50}"
+            "$value": "{color.rebell.100}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.rebell.25}"
+            "$value": "{color.rebell.200}"
           },
           "default": {
             "$type": "color",
-            "$value": "{color.grey.100}"
+            "$value": "{color.rebell.50}"
           }
         },
         "text": {
@@ -111,7 +111,7 @@
         "background": {
           "tinted": {
             "$type": "color",
-            "$value": "{color.ild.50}"
+            "$value": "{color.ild.25}"
           }
         },
         "surface": {
@@ -121,11 +121,11 @@
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.ild.100}"
+            "$value": "{color.ild.200}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.ild.200}"
+            "$value": "{color.ild.300}"
           },
           "tinted": {
             "$type": "color",
@@ -261,15 +261,15 @@
         "base": {
           "hover": {
             "$type": "color",
-            "$value": "{color.rebell.50}"
+            "$value": "{color.rebell.100}"
           },
           "active": {
             "$type": "color",
-            "$value": "{color.rebell.100}"
+            "$value": "{color.rebell.200}"
           },
           "default": {
             "$type": "color",
-            "$value": "{color.grey.100}"
+            "$value": "{color.rebell.50}"
           }
         }
       },
@@ -287,7 +287,7 @@
           },
           "hover": {
             "$type": "color",
-            "$value": "{color.ild.700}"
+            "$value": "{color.ild.600}"
           },
           "active": {
             "$type": "color",

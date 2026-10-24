@@ -273,12 +273,12 @@
       },
       "300": {
         "$type": "color",
-        "$value": "#909da9",
-        "$description": "Profilfarge: Vann mørk #909DA9."
+        "$value": "#abb6c1"
       },
       "400": {
         "$type": "color",
-        "$value": "#7b8894"
+        "$value": "#909da9",
+        "$description": "Profilfarge: Vann mørk #909DA9."
       },
       "500": {
         "$type": "color",
