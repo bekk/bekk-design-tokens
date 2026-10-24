@@ -16,7 +16,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "130"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -55,7 +55,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "130"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -94,7 +94,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -133,7 +133,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -172,7 +172,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -211,11 +211,11 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",
-        "$value": "0"
+        "$value": "4"
       },
       "paragraphSpacing": {
         "$type": "dimension",
@@ -250,7 +250,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -289,7 +289,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",
@@ -328,7 +328,7 @@
       },
       "lineHeight": {
         "$type": "number",
-        "$value": "150"
+        "$value": "140"
       },
       "letterSpacing": {
         "$type": "dimension",

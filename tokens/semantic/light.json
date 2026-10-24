@@ -45,6 +45,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.light.dominant.surface.active}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.light.dominant.surface.tinted}"
         }
       },
       "background": {
@@ -115,6 +119,10 @@
         "hover": {
           "$type": "color",
           "$value": "{color.green.25}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.green.100}"
         }
       },
       "border": {
@@ -140,7 +148,7 @@
         },
         "active": {
           "$type": "color",
-          "$value": "{color.green.500}"
+          "$value": "{color.green.600}"
         }
       },
       "base-contrast": {
@@ -183,6 +191,10 @@
         "hover": {
           "$type": "color",
           "$value": "{color.light.accent.surface.hover}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.light.accent.surface.tinted}"
         }
       },
       "text": {
@@ -237,6 +249,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.red.100}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.red.100}"
         }
       },
       "border": {
@@ -277,6 +293,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.orange.100}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.orange.100}"
         }
       },
       "base": {
@@ -313,6 +333,10 @@
         "default": {
           "$type": "color",
           "$value": "{color.purple.50}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.purple.100}"
         }
       },
       "border": {
@@ -359,6 +383,10 @@
           "$value": "{color.blue.50}"
         },
         "active": {
+          "$type": "color",
+          "$value": "{color.blue.100}"
+        },
+        "tinted": {
           "$type": "color",
           "$value": "{color.blue.100}"
         }

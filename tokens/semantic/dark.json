@@ -45,6 +45,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.dark.dominant.surface.active}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.dark.dominant.surface.tinted}"
         }
       },
       "background": {
@@ -115,6 +119,10 @@
         "hover": {
           "$type": "color",
           "$value": "{color.green.700}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.green.700}"
         }
       },
       "border": {
@@ -140,7 +148,7 @@
         },
         "active": {
           "$type": "color",
-          "$value": "{color.green.500}"
+          "$value": "{color.green.600}"
         }
       },
       "base-contrast": {
@@ -183,6 +191,10 @@
         "hover": {
           "$type": "color",
           "$value": "{color.dark.accent.surface.hover}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.dark.accent.surface.tinted}"
         }
       },
       "text": {
@@ -237,6 +249,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.red.900}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.red.700}"
         }
       },
       "border": {
@@ -277,6 +293,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.orange.900}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.orange.700}"
         }
       },
       "base": {
@@ -313,6 +333,10 @@
         "default": {
           "$type": "color",
           "$value": "{color.purple.800}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.purple.700}"
         }
       },
       "border": {
@@ -361,6 +385,10 @@
         "active": {
           "$type": "color",
           "$value": "{color.blue.900}"
+        },
+        "tinted": {
+          "$type": "color",
+          "$value": "{color.blue.700}"
         }
       },
       "border": {
