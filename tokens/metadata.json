@@ -17,6 +17,10 @@
   "sizeBreakpoints": {
     "desktop": 768
   },
+  "remTokens": [
+    "primitive.font-size.*",
+    "spacing.**"
+  ],
   "figma": {
     "fileKey": "",
     "collections": {
