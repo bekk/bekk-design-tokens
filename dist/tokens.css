@@ -292,6 +292,29 @@
   --font-weight-medium-italic-fontStyle: italic;
   --font-weight-regular-italic: 400;
   --font-weight-regular-italic-fontStyle: italic;
+  --motion-duration-fast: 150ms;
+  --motion-duration-default: 200ms;
+  --motion-duration-slow: 300ms;
+  --motion-duration-slower: 500ms;
+  --motion-easing-standard: cubic-bezier(0.4, 0, 0.2, 1);
+  --motion-easing-enter: cubic-bezier(0, 0, 0.2, 1);
+  --motion-easing-exit: cubic-bezier(0.4, 0, 1, 1);
+  --spacing-0: 0px;
+  --spacing-0-5: 2px;
+  --spacing-1: 4px;
+  --spacing-1-5: 6px;
+  --spacing-2: 8px;
+  --spacing-2-5: 10px;
+  --spacing-3: 12px;
+  --spacing-4: 16px;
+  --spacing-5: 20px;
+  --spacing-6: 24px;
+  --spacing-8: 32px;
+  --spacing-10: 40px;
+  --spacing-12: 48px;
+  --spacing-16: 64px;
+  --spacing-20: 80px;
+  --spacing-24: 96px;
   --typography-heading-lg-fontFamily: GT America;
   --typography-heading-lg-fontWeight: 400;
   --typography-heading-lg-fontSize: var(--primitive-font-size-6);
@@ -394,9 +417,10 @@
   --color-interactive-base-hover: var(--color-purple-700);
   --color-interactive-base-active: var(--color-purple-500);
   --color-interactive-base-contrast-default: var(--color-white-100);
+  --color-backdrop: rgba(0, 0, 0, 0.80);
 }
 
-[data-theme="jord"] {
+[data-theme="bekk-jord"] {
   --color-light-accent-background-tinted: #f8f9f3;
   --color-light-accent-surface-default: #f1f1e9;
   --color-light-accent-surface-hover: #c3c6b6;
@@ -421,7 +445,7 @@
   --color-dark-accent-surface-tinted: #373a2b;
 }
 
-[data-theme="ild"] {
+[data-theme="bekk-ild"] {
   --color-light-accent-background-tinted: #fef7f0;
   --color-light-accent-surface-default: #f0eae2;
   --color-light-accent-surface-hover: #d4c0ac;
@@ -446,7 +470,7 @@
   --color-dark-accent-surface-tinted: #463420;
 }
 
-[data-theme="luft"] {
+[data-theme="bekk-luft"] {
   --color-light-accent-background-tinted: #faf8f5;
   --color-light-accent-surface-default: #eeebe8;
   --color-light-accent-surface-hover: #cac2b8;

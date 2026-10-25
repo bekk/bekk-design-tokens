@@ -423,6 +423,10 @@
           "$value": "{color.white.100}"
         }
       }
+    },
+    "backdrop": {
+      "$type": "color",
+      "$value": "rgba(0, 0, 0, 0.80)"
     }
   }
 }
