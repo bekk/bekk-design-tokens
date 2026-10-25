@@ -1,10 +1,10 @@
 {
   "version": "1.0.0",
   "themes": [
-    "Vann",
-    "Jord",
-    "Ild",
-    "Luft"
+    "bekk-vann",
+    "bekk-jord",
+    "bekk-ild",
+    "bekk-luft"
   ],
   "colorSchemes": [
     "Light",
@@ -53,7 +53,8 @@
         "radius": "global",
         "spacing": "global",
         "border-width": "global",
-        "font": "global"
+        "font": "global",
+        "motion": "global"
       }
     }
   },
