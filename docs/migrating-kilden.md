@@ -27,7 +27,6 @@ Tallene under er målt mot Kilden på `main` (`3fd8c21`) og `dist/tokens.css` i 
 | Hva | Hvor | Status |
 | --- | --- | --- |
 | Fjerne `primitive.dimension.*` og gjøre `spacing.unit` til en fast verdi (4) | Figma, deretter Token Spark → Push | `dist/tokens.css` har fortsatt `--primitive-dimension-*`, og `--spacing-unit` peker på `--primitive-dimension-step` |
-| Skriftstørrelser og spacing i `rem` | [PR #41](https://github.com/bekk/bekk-design-tokens/pull/41) | Må merges. CSS-en endres først ved neste push som endrer et token |
 | Skygger som tokens (Figma Effect Styles ⇄ DTCG) | Eget prosjekt | Ikke startet. Skygger ligger i kode i mellomtiden |
 | Push regenererer ikke `dist/` hvis bare `metadata.json` endres | Token Spark | Kjent begrensning. Omgås ved at en vanlig token-endring følger etterpå |
 
