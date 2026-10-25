@@ -8,10 +8,10 @@ tokens/                Source of truth (W3C DTCG JSON)
     color.json           The colour palette (12-step scales + profile colours)
     sizes/               Font sizes and dimensions: mobile.json / desktop.json
   semantic/
-    themes/              One file per theme: Vann, Jord, Ild, Luft
+    themes/              One file per theme: bekk-vann, bekk-jord, bekk-ild, bekk-luft
     light.json           Role-based colours for light mode
     dark.json            …and for dark mode
-    global/              Typography styles, radius, border width, spacing, fonts
+    global/              Typography styles, radius, border width, spacing, fonts, motion
   metadata.json          Themes, colour schemes, sizes, Figma mapping, output formats
 dist/
   tokens.css             Generated – the only output enabled today
@@ -20,7 +20,7 @@ dist/
 ## How the colours fit together
 
 ```
-primitives          →   theme (Vann, light)               →   semantic
+primitives          →   theme (bekk-vann, light)          →   semantic
 color.grey.100          color.light.dominant.base.default     color.dominant.base.default
 ```
 
@@ -32,7 +32,7 @@ A **theme** decides which palette colours play which role, once for light and on
 | --- | --- |
 | `neutral` | Page backgrounds, ordinary surfaces, body text, borders |
 | `dominant` | The Bekk identity: grey + rebell (#D4FF26). **The same in every theme.** Its `base` is rebell in both light and dark. |
-| `accent` | The theme colour – **the only role that changes between Vann, Jord, Ild and Luft** |
+| `accent` | The theme colour – **the only role that changes between the four themes** |
 | `interactive` | Links and focus |
 | `success` · `danger` · `warning` · `info` | Status |
 
@@ -109,7 +109,7 @@ Use `base` only for buttons and small elements. Large areas use `background` or 
 
 ```html
 <link rel="stylesheet" href="dist/tokens.css" />
-<html data-color-scheme="auto" data-theme="ild"></html>
+<html data-color-scheme="auto" data-theme="bekk-ild"></html>
 ```
 
 ```css
@@ -118,7 +118,7 @@ Use `base` only for buttons and small elements. Large areas use `background` or 
   color: var(--color-neutral-text-default);
   border: var(--border-width-default) solid var(--color-neutral-border-default);
   border-radius: var(--radius-md);
-  padding: calc(var(--spacing-unit) * 4);
+  padding: var(--spacing-4); /* 16px */
 }
 
 .button-secondary {
@@ -138,7 +138,7 @@ Use `base` only for buttons and small elements. Large areas use `background` or 
 | Attribute | Values | Notes |
 | --- | --- | --- |
 | `data-color-scheme` | `light` · `dark` · `auto` | **Required** – semantic colours only exist inside it. `auto` follows the OS setting. Can be nested to lock a section (see above). |
-| `data-theme` | `vann` · `jord` · `ild` · `luft` | Optional – `vann` is the default. To theme just one section, put `data-theme` **and** `data-color-scheme` on it; `data-theme` alone doesn't change the semantic colours. |
+| `data-theme` | `bekk-vann` · `bekk-jord` · `bekk-ild` · `bekk-luft` | Optional – `bekk-vann` is the default (`:root`). To theme just one section, put `data-theme` **and** `data-color-scheme` on it; `data-theme` alone doesn't change the semantic colours. The default theme has no `[data-theme]` block of its own, so a section can't switch *back* to it from inside another theme. |
 | `data-size` | `desktop` | Optional – desktop sizes switch on automatically from 768px; set this to use them at any width. |
 
 ### What's in `tokens.css`
@@ -150,7 +150,9 @@ Use `base` only for buttons and small elements. Large areas use `background` or 
 | Palette | `--color-{palette}-{step}` (`grey`, `black`, `white`, `rebell`, `vann`, `jord`, `ild`, `luft`, `blue`, `green`, `red`, `orange`, `purple`) | Avoid in components. Profile colours from the brand guide are marked in the Figma variable descriptions (e.g. `rebell-50` = rebell, `grey-800` = Natt, `grey-25` = Dag). |
 | Radius | `--radius-none` · `sm` · `md` · `lg` · `xl` · `full` | 0 / 2 / 4 / 8 / 12 / 9999px |
 | Border width | `--border-width-default` · `highlight` · `focus` | 1 / 2 / 4px |
-| Spacing | `--spacing-unit` | Base step; multiply with `calc()` |
+| Spacing | `--spacing-{n}` (`0`, `0-5`, `1`, `1-5`, `2`, `2-5`, `3`, `4`, `5`, `6`, `8`, `10`, `12`, `16`, `20`, `24`) | Fixed scale, `n` × 4px: `--spacing-0-5` = 2px … `--spacing-24` = 96px. `-5` means “and a half”. `--spacing-unit` is the base step that follows the size axis |
+| Motion | `--motion-duration-{fast,default,slow,slower}` · `--motion-easing-{standard,enter,exit}` | 150 / 200 / 300 / 500ms. See *Motion* below |
+| Backdrop | `--color-backdrop` | Overlay behind dialogs and sheets – black at 80%. Lives in `semantic`, so it can differ per colour scheme later |
 | Font family | `--font-family-base` · `display` · `action` | All GT America today |
 | Font weight | `--font-weight-{name}` | See typography below |
 | Sizes | `--primitive-font-size-*`, `--primitive-dimension-*` | Change between mobile and desktop |
@@ -192,9 +194,35 @@ How Figma values are translated (by Token Spark, CSS output only – the JSON ke
 
 The full GT America family is licensed for web. Expanded and italic styles only render correctly if the matching font files are loaded with `@font-face` (with `font-stretch` / `font-style` set) – the tokens describe the style, they don't load the font. If a style name can't be parsed, Token Spark falls back to weight 400 with a warning; custom names can be mapped with `fontStyles` and `fontStretchKeywords` in `metadata.json`.
 
+### Motion
+
+```css
+.drawer {
+  transition: transform var(--motion-duration-default) var(--motion-easing-enter);
+}
+.drawer[data-state="closed"] {
+  transition-timing-function: var(--motion-easing-exit);
+}
+@media (prefers-reduced-motion: reduce) {
+  .drawer { transition-duration: 0ms; }
+}
+```
+
+| Token | Value | Use |
+| --- | --- | --- |
+| `duration-fast` | 150ms | Hover, focus, small state changes |
+| `duration-default` | 200ms | Most transitions |
+| `duration-slow` | 300ms | Panels, drawers, dialogs |
+| `duration-slower` | 500ms | Large page-level movement |
+| `easing-standard` | `cubic-bezier(0.4, 0, 0.2, 1)` | Something that moves on screen |
+| `easing-enter` | `cubic-bezier(0, 0, 0.2, 1)` | Something that appears |
+| `easing-exit` | `cubic-bezier(0.4, 0, 1, 1)` | Something that disappears |
+
+In Figma these are ordinary variables in `global`, hidden from the property pickers. Token Spark writes any `FLOAT` with `duration` in its name as milliseconds.
+
 ### Not in the tokens
 
-- **Motion and shadow** live in code only. Figma can't represent them as more than text strings.
+- **Shadow / elevation** lives in code only – Token Spark can't sync Figma effect styles yet.
 - **Fluid type** (`clamp()`) and ready-made typography classes are not generated – font sizes step between mobile and desktop.
 
 ### Other platforms
